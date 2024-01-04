@@ -1,0 +1,118 @@
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav > .logo{
+    width: 182px;
+    height: 68px;
+    filter: drop-shadow(1px 1px 0 #fff) drop-shadow(-1px -1px 0 #fff);
+}
+nav > .logo > img{
+    width: 100%;
+    height: 100%;
+}
+nav > .navlinks{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    height: 66px;
+}
+nav > .navlinks > .navlink{
+    font-size: 21px;
+    text-transform: capitalize;
+    font-weight: 500;
+    cursor: pointer;
+}
+nav > .navlinks > .navlink > a{
+    text-decoration: none;
+    color: #333;
+}
+nav > .navlinks > .navlink:hover{
+    opacity: 0.6;
+}
+nav > .navlinks > .cartlogo{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.hamicon{
+    display: none;
+}
+.sidebar{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 280px;
+    height: 100vh;
+    background-color: #eee;
+    overflow: hidden;
+    z-index: 10;
+}
+.closeicon{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 5px 20px 0;
+    cursor: pointer;
+}
+.sidebar-links{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebar-links .navlink{
+    width: 60%;
+    cursor: pointer;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+    padding: 10px ;
+    border-bottom: 1px solid #333;
+    font-weight: 600;
+}
+.sidebar-links .navlink:hover{
+    opacity: 0.6;
+}
+.sidebar-links .cartlogo{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.sidebar-links .btn{
+    font-size: 16px;
+    padding: 12px;
+    height: auto;
+}
+
+/* <============= Media Query =======================> */
+@media screen and (max-width: 1024px) {
+    nav{
+        width: 100%;
+    }
+    nav > .navlinks{
+        display: none;
+    }
+    .hamicon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+    }
+}

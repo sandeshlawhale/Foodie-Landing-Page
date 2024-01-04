@@ -1,0 +1,56 @@
+.contact{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding-bottom: 10rem;
+}
+.contact h1{
+    width: 530px;
+    font-size: 42px;
+    color: #333;
+    text-align: center;
+}
+.contact-email{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.contact-email input{
+    width: 100%;
+    flex: 1;
+    font-size: 18px;
+    padding: 14px 22px;
+    border-radius: 25px;
+    border: 2px solid #F4980D;
+    outline: none;
+}
+.contact-email button{
+    position: absolute;
+    right: 0;
+    padding: 14px 22px;
+    border-radius: 25px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #F4980D;
+    cursor: pointer
+}
+
+/* <============= Media Query =======================> */
+@media screen and (max-width: 1024px) {
+    .contact h1{
+        width: auto;
+        font-size: 32px;
+        text-align: left;
+    }
+    .contact-email{
+        width: 100%;
+    }
+}
