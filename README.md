@@ -1,8 +1,20 @@
-# React + Vite
+#Restaurant Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#[Demo Link][https://foodielandingpage.netlify.app/]
 
-Currently, two official plugins are available:
+##Created with Vite + React
+With this project I got a great understanding of Vite and React app.
+This was a practice based project to develop my skills.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#key feature-
+- Developed with vite
+- Responsive for most of the screen
+- only front-end
+
+#how to view locally
+- clone the repo to your personal computer
+- Run `npm install` to install all the required dependencies.
+- Run `npm run dev` to run the program locally
+
+#Request
+If u find any problem feel free to comment me. 
