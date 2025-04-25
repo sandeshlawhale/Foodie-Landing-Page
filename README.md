@@ -1,6 +1,6 @@
 # Restaurant Landing Page
 
-# [Demo Link][https://foodielandingpage.netlify.app/]
+## [Demo Link](https://foodielandingpage.netlify.app/)
 
 ## Created with Vite + React
 With this project I got a great understanding of Vite and React app.
